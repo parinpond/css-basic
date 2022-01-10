@@ -1,0 +1,86 @@
+.content{
+    padding: 60px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.table-pricing{
+    width: 200px;
+    height: 350px;
+    border: orangered solid 3px;
+    display: inline-block;
+    border-radius: 10px;
+    text-align: center;
+}
+.active{
+    background-color: orangered;
+    position: relative;
+    bottom: 20px;
+    top:20px;
+    height: 400px;
+}
+.active > .detail > span{
+    color: #ffff;
+}
+.active > .btn-buy-now{
+    border: #ffff solid 2px;
+    color: #ffffff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-radius:30px;
+    position: relative;
+    bottom: -20px;
+}
+.circle{
+    width:100px;
+    height:100px;
+    margin:20px;
+    border:orangered solid 3px;
+    line-height:20px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:100%;
+    background-color:#ffff;
+    text-align: center;
+}
+.text-currency{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    
+}
+.text-40{
+    padding-top: 30px;
+    font-size: 40px;
+    display: inline-block;
+}
+.text-12{
+    font-size: 12px;
+    display: block;
+}
+.text-25{
+    font-size: 25px;
+    display: block;
+    padding-bottom: 30px;
+}
+.text-15{
+    font-size: 15px;
+    display: block;
+    color: darkgray;
+}
+.btn-buy-now{
+    background-color: orangered ;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    position: relative;
+    bottom: -33px;
+}
